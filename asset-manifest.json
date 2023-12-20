@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/metridash/static/css/main.309f74e9.css",
+    "main.js": "/metridash/static/js/main.e33e349e.js",
+    "static/js/787.3361d6e0.chunk.js": "/metridash/static/js/787.3361d6e0.chunk.js",
+    "static/media/Frame4.png": "/metridash/static/media/Frame4.bc028b2f60c2789289b6.png",
+    "static/media/Frame2.png": "/metridash/static/media/Frame2.eef484666d63cbfb6d31.png",
+    "static/media/Frame3.png": "/metridash/static/media/Frame3.797150409bf896347278.png",
+    "static/media/Frame5.png": "/metridash/static/media/Frame5.c30e998048e6d34db1eb.png",
+    "static/media/2.png": "/metridash/static/media/2.9b9cc3f02cefb18e22c8.png",
+    "static/media/3.png": "/metridash/static/media/3.d7cd7c8a87fb6b8f8a19.png",
+    "index.html": "/metridash/index.html",
+    "main.309f74e9.css.map": "/metridash/static/css/main.309f74e9.css.map",
+    "main.e33e349e.js.map": "/metridash/static/js/main.e33e349e.js.map",
+    "787.3361d6e0.chunk.js.map": "/metridash/static/js/787.3361d6e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.309f74e9.css",
+    "static/js/main.e33e349e.js"
+  ]
+}
