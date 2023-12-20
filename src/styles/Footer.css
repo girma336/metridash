@@ -1,0 +1,40 @@
+@tailwind utilities;
+
+@layer utilities {
+    .footer__page {
+        width: 87.6%;
+        margin: 10px auto;
+    }
+    .footer__header {
+        font-family: Satoshi;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.02em;
+        text-align: left;
+    }
+
+    .footer__desc {
+        font-family: Satoshi;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+        text-align: left;
+    }
+
+    .footer__page-sm {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .Text-md-Regular {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 60%;
+    }
+}

@@ -1,0 +1,26 @@
+@tailwind utilities;
+
+@layer utilities {
+    .mobile__header {
+        font-family: Satoshi;
+        font-size: 42px;
+        font-weight: 900;
+        line-height: 45px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        margin-top: 100px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+    .mobile__desc {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+}

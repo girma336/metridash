@@ -1,0 +1,54 @@
+@tailwind utilities;
+
+@layer utilities {
+  /* Your custom utility classes */
+  .grid-works {
+    display: grid;
+    grid-template-columns: repeat(3, 339px);
+    gap: 40px;
+  }
+
+  .first-class {
+    background-image: url('./../assets/1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .second-class {
+    background-image: url('./../assets/2.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .third-class {
+    background-image: url('./../assets/3.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .works-header {
+    font-family: Satoshi;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 54px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #1F2937;
+  }
+
+  .text-works {
+    font-family: Satoshi;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+
+  .less-than-lg {
+    display: none;
+  }
+}

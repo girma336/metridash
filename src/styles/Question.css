@@ -1,0 +1,124 @@
+@tailwind utilities;
+
+@layer utilities {
+    .question-Heading {
+        font-family: Satoshi;
+        font-size: 58px;
+        font-weight: 700;
+        line-height: 78px;
+        letter-spacing: -2px;
+        text-align: center;
+        color: #101828;
+    }
+
+    .question-Heading-sm {
+        font-family: Satoshi;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 65px;
+        letter-spacing: -2px;
+        text-align: center;
+        color: #101828;
+    }
+
+    .question-Heading-mob {
+        font-family: Satoshi;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 56.7px;
+        letter-spacing: -2px;
+        text-align: center;
+        color: #101828;
+    }
+
+
+
+    .question-Description {
+        font-family: Satoshi;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #667085;
+    }
+
+    .question-Description-sm {
+        font-family: Satoshi;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24.8px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #667085;
+    }
+
+    .question-Description-mob {
+        font-family: Satoshi;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 21.6px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #667085;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .faq-container {
+        max-width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .faq-container-sm {
+        max-width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .faq-item {
+        max-width: 768px;
+        border-bottom: 1px solid #EAECF0;
+        padding: 20px 20px 20px 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .question {
+        display: grid;
+        grid-template-columns: 720px 48px;
+    }
+
+    .faq-item-sm {
+        max-width: 98%;
+        border-bottom: 1px solid #EAECF0;
+        padding: 20px 20px 20px 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .question-sm {
+        display: grid;
+        grid-template-columns: 95% 5%;
+    }
+
+    .Question-Description {
+        font-family: Satoshi;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .Question-Answer {
+        font-family: Satoshi;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+}

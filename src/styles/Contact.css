@@ -1,0 +1,63 @@
+@tailwind utilities;
+
+@layer utilities {
+  /* Your custom utility classes */
+
+  .contact__header {
+    font-family: Satoshi;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 97px;
+    letter-spacing: -2px;
+    text-align: center;
+    color: #101828;
+    padding-top: 40px;
+  }
+
+  .contact__header-sm {
+    font-family: Satoshi;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 69px;
+    letter-spacing: -2px;
+    text-align: center;
+    color: #101828;
+    padding-top: 40px;
+  }
+
+  .contact__header-mob {
+    font-family: Satoshi;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 57px;
+    letter-spacing: -2px;
+    text-align: center;
+    color: #101828;
+  }
+  
+  .Contact-Description {
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .Button-contact {
+    background: #1F2937;
+    box-shadow: 2px 4px 10px 0px #CBCBCB33 inset;
+    width: 215px;
+    height: 60px;
+    padding: 16px 34px;
+    border-radius: 8px;
+    gap: 10px;
+    font-family: Satoshi;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #F9FAFB;
+  }
+}

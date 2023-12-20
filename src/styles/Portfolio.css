@@ -1,0 +1,13 @@
+@tailwind utilities;
+
+@layer utilities {
+  /* Your custom utility classes */
+  .grid-system {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+  }
+
+  .less-than-xl {
+    display: none;
+  }
+}
